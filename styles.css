@@ -6,7 +6,8 @@ body{
 }
 main{
   display: flex;
-  justify-content: center;
+      flex-direction: column;
+  align-items: center;
 }
 .container{
   background-color: #FFFFFF;
@@ -41,10 +42,15 @@ padding: 30px;
 
 hr{
   border: 1px solid #D1D1D1;
+  margin-bottom: 27px;
 
 }
 
 /* top  blog style */
+.blogs{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
 .blog .thumb img{
   width: 177px;
 height: 117px;
