@@ -1,0 +1,45 @@
+/* common styles */
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #9F9F9F;
+}
+main{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  background-color: #FFFFFF;
+  width: 870px;
+padding: 30px;
+}
+/* top player style */
+.top-players{
+  margin-bottom: 30px;
+}
+.section-title{
+  color: #562EFF;
+  font-size: 24px;
+  margin-top: 3px;
+}
+.player-title{
+  margin-left: 16px;
+}
+.players{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  grid-row-gap: 30px;
+}
+.player{
+  display: flex;
+}
+.player img{
+  width: 56px;
+  height: 56px;
+}
+
+hr{
+  border: 1px solid #D1D1D1;
+
+}
