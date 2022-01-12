@@ -43,3 +43,19 @@ hr{
   border: 1px solid #D1D1D1;
 
 }
+
+/* top  blog style */
+.blog .thumb img{
+  width: 177px;
+height: 117px;
+
+}
+.blog{
+  display: flex;
+}
+.blog-title{
+  width: 163px;
+height: 68px;
+font-weight: 500;
+font-size: 20px;
+}
