@@ -65,3 +65,39 @@ height: 68px;
 font-weight: 500;
 font-size: 20px;
 }
+/* top courses style */
+.courses{
+  display: flex;
+}
+.course-banner img{
+  width: 224px;
+height: 104px
+}
+.course-header{
+  width :194px
+height :23px
+}
+.course-author{
+  height: 17.362443923950195px;
+width: 89.48336029052734px;
+
+
+}
+.ratings{
+  margin-top: 30px;
+}
+.h{
+   color:  #FFC014;
+
+}
+.course-infos{
+  display: flex;
+  align-items: center;
+
+}
+/* Media Queries */
+@media only screen and (max-width:688px) {
+.top-players{
+  background-color: red;
+}
+}
